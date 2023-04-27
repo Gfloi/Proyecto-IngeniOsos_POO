@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../intento 3/intento 3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <title>Login</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="caja1-logo"></div>
+
+    <div class="caja2">
+      <div class="caja-formulario">
+        <div class="texto-formulario">
+          <h1>Bienvenido</h1>
+          <p>Inicia sesion con tus datos IngeniOso!</p>
+        </div>
+
+        <form class="formulario">
+          <div class="form-group">
+            <label for="usuario">Nombre de usuario</label>
+            <input type="text" class="form-control" id="usuario" placeholder="Ingrese su nombre de usuario">
+          </div>
+          <div class="form-group">
+            <label for="password">Contraseña</label>
+            <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="login()">Iniciar sesión</button>
+          <button type="submit" class="btn btn-primary" onclick="register()">Registrate</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function login() {
+      // Validar que los campos no estén vacíos
+      var usuario = document.getElementById("usuario").value;
+      var password = document.getElementById("password").value;
+
+      if (usuario.trim() == "" || password.trim() == "") {
+        alert("Debe ingresar usuario y contraseña");
+        return;
+      }
+
+      // Validar que el usuario y contraseña sean correctos
+      if (usuario == "usuario" && password == "password") {
+        alert("Inicio de sesión exitoso");
+        const boton = document.getElementById("boton");
+        window.location.href = ""; // Redireccionar a la página de perfil
+
+      } else {
+        alert("Usuario o contraseña incorrectos");
+      }
+    }
+
+    function register() {
+      // Obtener los valores ingresados por el usuario
+      var usuario = document.getElementById("usuario").value;
+      var password = document.getElementById("password").value;
+
+      // Validar que los campos no estén vacíos
+      if (usuario.trim() == "" || password.trim() == "") {
+        alert("Debe ingresar usuario y contraseña");
+        return;
+      }
+
+      // Guardar el usuario y contraseña en local storage
+      localStorage.setItem("usuario", usuario);
+      localStorage.setItem("password", password);
+
+      alert("Registro exitoso");
+    }
+  </script>
+
+</body>
+
+</html>
