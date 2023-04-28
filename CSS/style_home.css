@@ -1,0 +1,269 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 95%;
+}
+
+.caja1-logo {
+  position: absolute;
+  width: 500px;
+  height: 650px;
+  left: 460px;
+  top: 50%;
+  margin-top: -325px;
+
+  background: #a2da9a;
+  background-image: url(/images/logo_login.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 20px 0px 0px 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-right: none;
+  box-shadow: 5px 5px 5px 0px #cecece;
+  flex: 0 0 calc(60%);
+}
+
+.formulario {
+  padding: 40px;
+  text-align: center;
+}
+
+.caja2 {
+  position: absolute;
+  width: 500px;
+  height: 650px;
+  left: 955px;
+  top: 50%;
+  margin-top: -325px;
+
+  background: #cdd8df;
+  border-radius: 0px 20px 20px 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-left: none;
+  box-shadow: 5px 5px 5px 0px #cecece;
+}
+
+body {
+  background-image: url(/images/fondo_login.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.texto-formulario h1,
+label,
+p {
+  font-family: 'Hind Siliguri', sans-serif;
+  color: white;
+}
+
+.texto-formulario h1 {
+  margin-top: 100px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.texto-formulario p {
+  font-size: 22px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: #a2da9a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color .15s ease-in-out;
+}
+
+button:hover {
+  background-color: #7caa76;
+}
+
+form {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.ancla {
+  text-decoration: none;
+}
+
+.header{
+  background-color: rgb(168, 168, 168);
+  position: relative;
+  margin-top: -600px;
+  width: 300px;
+  margin-left: 570px;
+}
+
+#foto{
+    /*El backgorund color lo podemos quitar, solo es para 
+    guiarme con el div :)*/
+  background-color: rgb(168, 168, 168);
+  width: 180px;
+  height: 260px;
+  position: relative;
+  margin-top: -180px;
+  margin-left: -780px;
+}
+
+.foto-per{
+  border-color: azure;
+  width: 170px;
+  height: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.boton-verperfil {
+  color: black;
+  width: 150px;
+  padding: 10px 20px;
+  border: black solid 2px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.boton-verperfil:hover {
+  background-color: gray;
+  color: white;
+}
+
+.datos-usuario{
+  margin-top: -250px;
+  margin-left: 330px;
+  /*El backgorund color lo podemos quitar, solo es para 
+    guiarme con el div :)*/
+  background-color:  rgb(168, 168, 168);
+  width: 70%;
+  position: absolute;
+  font-size: 25px;
+  color: black;
+}
+
+.table-datos,td{
+  margin-top: 0px;
+  border: 2px solid;
+  padding: 0%;
+  margin: 0%;
+}
+
+.izquierda-tabledatos{
+  width: 400px;
+  height: 70px;
+}
+
+.centro-tabledatos{
+  width: 400px;
+}
+
+.derecha-tabledatos{
+  width: 400px;
+}
+
+.img-pagprin{
+  width: 300px;
+}
+
+.seleccion{
+  margin-top: 300px;
+  margin-left: 330px;
+  /*El backgorund color lo podemos quitar, solo es para 
+    guiarme con el div :)*/
+  background-color:  rgb(168, 168, 168);
+  width: 70%;
+  position: absolute;
+  font-size: 25px;
+  color: black;
+}
+
+.img-tabla1{
+  width: 200px;
+  height: 300px;
+  position: relative;
+  left: 70px;
+  text-align: center;
+}
+
+.img-tabla2{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 30px;
+  text-align: center;
+}
+
+.izquierda-tableseleccion{
+  width: 400px;
+}
+
+.centro-tableseleccion{
+  width: 400px;
+  text-align: center;
+}
+
+.derecha-tableseleccion{
+  width: 400px;
+  margin-left: 50px;
+}
+
+.izquierda-tableselecciontxt{
+  text-align: center;
+}
+
+.derecha-tableselecciontxt{
+  text-align: center;
+}
+
+.boton-CS{
+  margin-top: 625px;
+  margin-left: -200px;
+  position: relative;
+}
+
+.boton-cerrarsesion {
+  color: black;
+  width: 150px;
+  padding: 10px 20px;
+  border: black solid 2px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.boton-cerrarsesion:hover {
+  background-color: gray;
+  color: white;
+}
