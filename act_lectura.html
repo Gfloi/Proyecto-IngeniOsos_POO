@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/select_act.css">
+    <link rel="stylesheet" href="/CSS/style_header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>Actividades</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="/images/logo_login.png" alt="Logo IngeniOso">
+        </div>
+        <nav>
+            <ul class="enlaces_nav">
+                <li><a href="/Pagina Principal.html">Home</a></li>
+                <li><a href="/Perfil_alumno.html">Perfil</a></li>
+                <li><a href="/Login.html">Cerrar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <div class="container">
+        <div class="pic_profile">
+            <img src="/images/Avatar Perfil.png" alt="Imagen de Perfil" class="imagen_perfil">
+        </div>
+        <div class="datos">
+            <ul class="datos_usuario">
+                <li>Usuario</li>
+                <li>Numero de Usuario</li>
+                <li>Grupo</li>
+            </ul>
+            <div class="texto_bienvenida">
+                <p>Bienvenido</p>
+            </div>
+        </div>
+    </div>
+
+    <h1>Actividades de Comprension Lectora</h1>
+
+    <table>
+        <table>
+            <tr>
+                <th>Actividad 1</th>
+                <th>Puntaje obtenido</th>
+                <th>Actividad</th>
+            </tr>
+            <tr>
+                <td>Realizada</td>
+                <td>80%</td>
+                <td><button id="actividad1">Ir a la actividad</button></td>
+            </tr>
+        </table>
+
+        <script>
+            document.getElementById("actividad1").onclick = function () {
+                window.location.href = "https://mi-sitio-web.com/actividad1";
+            };
+        </script>
+
+    </table>
+    <table>
+        <tr>
+            <th>Actividad 2</th>
+            <th>Puntaje obtenido</th>
+            <th>Actividad</th>
+        </tr>
+        <tr>
+            <td>Realizada</td>
+            <td>80%</td>
+            <td><button id="actividad2">Ir a la actividad</button></td>
+        </tr>
+    </table>
+
+    <script>
+        document.getElementById("actividad2").onclick = function () {
+            window.location.href = "https://mi-sitio-web.com/actividad1";
+        };
+    </script>
+
+    <table>
+        <tr>
+            <th>Actividad 3</th>
+            <th>Puntaje obtenido</th>
+            <th>Actividad</th>
+        </tr>
+        <tr>
+            <td>Realizada</td>
+            <td>80%</td>
+            <td><button id="actividad">Ir a la actividad</button></td>
+        </tr>
+    </table>
+    <script>
+        document.getElementById("actividad2").onclick = function () {
+            window.location.href = "https://mi-sitio-web.com/actividad1";
+        };
+    </script>
+
+</body>
+
+</html>

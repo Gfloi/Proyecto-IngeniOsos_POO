@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8">
@@ -30,15 +30,38 @@
             <input type="text" class="form-control" id="usuario" placeholder="Ingrese su nombre de usuario">
           </div>
           <div class="form-group">
-            <label for="usuario-num">Número de usuario</label>
-            <input type="password" class="form-control" id="usuario-num" placeholder="Ingrese su número de usuario">
+            <label for="password">Contraseña</label>
+            <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">
           </div>
-          <button type="submit" class="btn btn-primary"><a class="ancla" href="Pagina Principal.html">Iniciar sesión</a></button>
-          <button type="submit" class="btn btn-primary"><a class="ancla" href="Registro_main_q.html">Registrate</a></button>
+          <button type="submit" class="btn btn-primary" onclick="login()"><a href="/Pagina Principal.html">Iniciar Sesion</a></button>
+          <button type="submit" class="btn btn-primary"><a href="/Registro_main_q.html">Registrate</a></button>
         </form>
       </div>
     </div>
   </div>
+
+  <script>
+    function login() {
+      // Validar que los campos no estén vacíos
+      var usuario = document.getElementById("usuario").value;
+      var password = document.getElementById("password").value;
+
+      if (usuario.trim() == "" || password.trim() == "") {
+        alert("Debe ingresar usuario y contraseña");
+        return;
+      }
+
+      // Validar que el usuario y contraseña sean correctos
+      if (usuario == "usuario" && password == "password") {
+        alert("Inicio de sesión exitoso");
+        const boton = document.getElementById("boton");
+        window.location.href = ""; // Redireccionar a la página de perfil
+
+      } else {
+        alert("Usuario o contraseña incorrectos");
+      }
+    }
+  </script>
 
 </body>
 

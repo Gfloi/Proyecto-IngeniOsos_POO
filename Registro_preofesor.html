@@ -31,14 +31,33 @@
           </div>
           <div class="form-group">
             <label for="usuario-num">ID de trabajador</label>
-            <input type="password" class="form-control" id="usuario-num" placeholder="Ingrese su número de usuario">
+            <input type="password" class="form-control" id="trabajador_num" placeholder="Ingrese su número de usuario">
           </div>
-          <button type="submit" class="btn btn-primary"><a class="ancla" href="Login.html">Enviar</a></button>
+          <button type="submit" class="btn btn-primary" onclick="register"><a class="ancla" href="Login.html">Enviar</a></button>
         </form>
       </div>
     </div>
   </div>
 
+  <script>
+        function register() {
+      // Obtener los valores ingresados por el usuario
+      var usuario = document.getElementById("usuario").value;
+      var password = document.getElementById("trabajador_num").value;
+
+      // Validar que los campos no estén vacíos
+      if (usuario.trim() == "" || trabajador_num.trim() == "") {
+        alert("Debe ingresar usuario y contraseña");
+        return;
+      }
+
+      // Guardar el usuario y contraseña en local storage
+      localStorage.setItem("usuario", usuario);
+      localStorage.setItem("password", password);
+
+      alert("Registro exitoso");
+    }
+  </script>
 </body>
 
 </html>

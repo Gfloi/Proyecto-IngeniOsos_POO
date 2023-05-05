@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.group {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #999;
+}
+
+
+.container div {
+    margin-left: 20px;
+    /* Añade un margen izquierdo para separar el texto de la imagen */
+}
+
+table {
+    margin: 20px auto;
+    /* Añade margin: 20px auto; para centrar la tabla horizontalmente */
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td:last-child {
+    font-weight: bold;
+}
