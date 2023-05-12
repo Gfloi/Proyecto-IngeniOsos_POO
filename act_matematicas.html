@@ -50,60 +50,59 @@
     <table>
         <table>
             <tr>
-                <th>Actividad 1</th>
-                <th>Puntaje obtenido</th>
-                <th>Actividad</th>
+                <th rowspan="2">Nivel: Fácil ´</th>
+                <td rowspan="2"><button id="actividad1">Actividad 1</button></td>
+                <th>Puntuacion</th>
+                
             </tr>
             <tr>
-                <td>Realizada</td>
-                <td>80%</td>
-                <td><button id="actividad1">Ir a la actividad</button></td>
+                <th>80%</th>
             </tr>
+            <script>
+                document.getElementById("actividad1").onclick = function () {
+                    window.location.href = "https://mi-sitio-web.com/actividad1";
+                };
+            </script>
         </table>
-
-        <script>
-            document.getElementById("actividad1").onclick = function () {
-                window.location.href = "https://mi-sitio-web.com/actividad1";
-            };
-        </script>
-
     </table>
-    <table>
-        <tr>
-            <th>Actividad 2</th>
-            <th>Puntaje obtenido</th>
-            <th>Actividad</th>
-        </tr>
-        <tr>
-            <td>Realizada</td>
-            <td>80%</td>
-            <td><button id="actividad2">Ir a la actividad</button></td>
-        </tr>
-    </table>
-
-    <script>
-        document.getElementById("actividad2").onclick = function () {
-            window.location.href = "https://mi-sitio-web.com/actividad1";
-        };
-    </script>
 
     <table>
-        <tr>
-            <th>Actividad 3</th>
-            <th>Puntaje obtenido</th>
-            <th>Actividad</th>
-        </tr>
-        <tr>
-            <td>Realizada</td>
-            <td>80%</td>
-            <td><button id="actividad">Ir a la actividad</button></td>
-        </tr>
+        <table>
+            <tr>
+                <th rowspan="2">Nivel: Medio</th>
+                <td rowspan="2"><button id="actividad2">Actividad 2</button></td>
+                <th>Puntuacion</th>
+                
+            </tr>
+            <tr>
+                <th>80%</th>
+            </tr>
+            <script>
+                document.getElementById("actividad2").onclick = function () {
+                    window.location.href = "https://mi-sitio-web.com/actividad1";
+                };
+            </script>
+        </table>
     </table>
-    <script>
-        document.getElementById("actividad2").onclick = function () {
-            window.location.href = "https://mi-sitio-web.com/actividad1";
-        };
-    </script>
+
+    <table>
+        <table>
+            <tr>
+                <th rowspan="2">Nivel: Difícil</th>
+                <td rowspan="2"><button id="actividad3">Actividad 3</button></td>
+                <th>Puntuacion</th>
+                
+            </tr>
+            <tr>
+                <th>80%</th>
+            </tr>
+            <script>
+                document.getElementById("actividad3").onclick = function () {
+                    window.location.href = "https://mi-sitio-web.com/actividad1";
+                };
+            </script>
+        </table>
+    </table>
 
 </body>
 
