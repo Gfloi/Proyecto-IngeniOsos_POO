@@ -5,6 +5,7 @@ h1 {
     font-family: 'Hind Siliguri', sans-serif;
 }
 
+<<<<<<< HEAD
 h2{
   margin: auto 0px;
   background-color: rgb(255, 255, 255);
@@ -28,6 +29,8 @@ h2{
     /* Añade un margen izquierdo para separar el texto de la imagen */
 }
 
+=======
+>>>>>>> 9df0bc3e1b6230becee3be5a96153420f3324ad9
 table {
     margin: 20px auto;
     /* Añade margin: 20px auto; para centrar la tabla horizontalmente */
@@ -41,6 +44,7 @@ th, td {
     text-align: center;
     border: 1px solid #ddd;
     border: none;
+    width: 600px;
 }
 
 th {
@@ -119,6 +123,7 @@ td:last-child {
     transition: all 0.30001s;
   }
 
+<<<<<<< HEAD
   .izquierda{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -160,4 +165,17 @@ td:last-child {
 en enuncioado estas en el nivel #n*/
 .comniv{
   background-color: white;
+=======
+.izquierda{
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.derecha1{
+  border-top-right-radius: 10px;
+}
+
+.derecha2{
+  border-bottom-right-radius: 10px;
+>>>>>>> 9df0bc3e1b6230becee3be5a96153420f3324ad9
 }
