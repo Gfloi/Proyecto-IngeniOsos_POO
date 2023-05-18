@@ -87,3 +87,7 @@ p {
     flex: 1;
     /* Añade flexbox para centrar el texto */
 }
+
+.contenido{
+    padding-top: 80px;
+}
