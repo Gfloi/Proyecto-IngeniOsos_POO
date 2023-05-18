@@ -91,3 +91,22 @@ p {
 .contenido{
     padding-top: 80px;
 }
+
+.td_alumno_esp{
+    text-align: center;
+    background-color: rgb(255, 198, 198);
+}
+
+.td_alumno_mat{
+    text-align: center;
+    background-color: rgb(255, 255, 198);
+}
+
+.th_alumno{
+    text-align: center;
+}
+
+#alin{
+    text-align: center;
+    margin: 0px auto;
+  }

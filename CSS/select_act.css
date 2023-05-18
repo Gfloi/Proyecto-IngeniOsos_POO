@@ -64,7 +64,7 @@ td:last-child {
 #actividad1 {
   color: black;
   margin: 20px auto;
-  width: 230px;
+  width: 80%;
   padding: 20px 40px;
   background-color: #d8ffe0;
   border-radius: 5px;
@@ -84,7 +84,7 @@ td:last-child {
 #actividad2 {
   color: black;
   margin: 20px auto;
-  width: 230px;
+  width: 400px;
   padding: 20px 40px;
   background-color: #d8ffe0;
   border-radius: 5px;
@@ -165,4 +165,20 @@ en enuncioado estas en el nivel #n*/
   background-color: white;
   width: 300px;
   border-radius: 5px;
+}
+
+.padre{
+  width: 100%;
+  height: 50px;
+}
+.hijo{
+  border-radius: 10px;
+  background-color: white;
+  width: 400px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.centro{
+  width: 1300px;
 }
