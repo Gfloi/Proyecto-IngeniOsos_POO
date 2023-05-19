@@ -93,6 +93,7 @@ p {
 }
 
 .td_alumno_esp{
+    width: 100px;
     text-align: center;
     background-color: rgb(255, 198, 198);
 }
