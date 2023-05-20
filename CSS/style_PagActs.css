@@ -112,6 +112,17 @@ p {
     left: -30px;
 }
 
+.center21{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding: 20px auto;
+    position: relative;
+    left: -30px;
+}
+
 .problemas{
     width: 40%;
     height: auto;
